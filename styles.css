@@ -1,0 +1,54 @@
+html,
+body {
+  margin: 0px;
+  height: 100%;
+}
+
+.page-container {
+  background-color: hsl(212, 45%, 89%);
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.card {
+  border-radius: 10px;
+  background-color: hsl(0, 0%, 100%);
+  padding: 15px;
+  display: flex;
+  flex-direction: column;
+  width: 220px;
+  height: 350px;
+  box-shadow: 10px 10px 30px hsl(220, 15%, 55%);
+}
+
+.qr-image {
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+}
+
+.card-title {
+  text-align: center;
+}
+
+.card-content {
+  text-align: center;
+  color: hsl(220, 15%, 55%);
+}
+
+* {
+  font-family: "Outfit", sans-serif;
+  font-size: 15px;
+}
+
+h3 {
+  font-weight: 700;
+}
+
+.card-content > p {
+  margin: 0;
+  font-weight: 400;
+}
